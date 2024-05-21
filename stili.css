@@ -1,0 +1,160 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opis{
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(250, 58, 106);
+}
+
+h2{
+    color: rgb(243, 117, 149);
+}
+
+.osnovno{
+    border-left: 5px solid rgb(243, 49, 49);
+    background-color: rgb(243, 202, 202);
+    max-width: 20%;
+    padding: 5px;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.seznami{
+    display: flex;
+    justify-content: center;
+}
+
+.seznami div{
+    margin: 20px;
+}
+
+th{
+    background-color: rgb(243, 117, 149);
+}
+
+table, td, tr, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table{
+    margin: 10px;
+}
+
+.sredina{
+    display: flex;
+    justify-content: center;
+}
+
+input, label{
+    margin: 5px;
+}
+
+header li:hover{
+    background-color: rgb(248, 90, 130);
+}
+
+header{
+    background-color: rgb(173, 55, 85);
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    color: white;
+}
+
+footer ul, footer li{
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+}
+
+footer{
+    position: relative;
+}
+
+footer ul{
+    margin: 0px;
+}
+
+footer ul li:not(:last-child)::after {
+    content: "|";
+    color: #c0c0c0;
+    margin: 0 5px;
+}
+
+footer p{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+label{
+    margin: 5px;
+}
+
+table, tr, td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    width: 1140px;
+    margin: 10px auto;
+}
+
+.container{
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+label{
+    margin: 5px;
+}
+
+table, tr, td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.aktivno{
+    background-color: rgb(223, 67, 106);
+}

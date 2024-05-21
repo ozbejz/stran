@@ -1,0 +1,35 @@
+header li:hover{
+    background-color: rgb(248, 90, 130);
+}
+
+header{
+    background-color: rgb(173, 55, 85);
+    margin-bottom: 10px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    color: white;
+}
+
+header ul, li{
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+}
+
+footer{
+    position: relative;
+}
